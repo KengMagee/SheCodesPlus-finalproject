@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
       rel="stylesheet"/>
       <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-      
+
     <title>Weather App</title>
   </head>
   <body>
@@ -21,7 +21,7 @@
             type="search"
             placeholder="Enter a city..."
             required
-            class="search-form-input"
+            class="search-form-input" id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -31,7 +31,7 @@
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details"><span id="time"></span>, <span id="description"></span><br />Humidity:<strong>
                 <span id="humidity"></span>%,</strong>
-            Wind:<strong><span id="wind-speed"></span> km/h</strong>
+            Wind: <strong><span id="wind-speed"></span> km/h</strong>
         </p>
     </div>
     <div class="weather-app-temperature-container">
@@ -40,7 +40,7 @@
 <div class="weather-app-unit">&degC</div>
     </div>
 </main>
-    <footer>Built by <a href="" target="blank">Karen Felipe</a>
+    <footer>Built by <a href="https://github.com/KengMagee" target="blank">Karen Felipe</a>
         open-sourced on <a href="https://github.com/KengMagee/SheCodesPlus-finalproject" target="blank">GitHub</a>
     and website hosted on <a href="" target="blank">Netlify</a>
     </footer>
